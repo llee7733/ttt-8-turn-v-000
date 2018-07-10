@@ -35,6 +35,13 @@ def position_taken?(board,index)
   
   input = gets.strip
   index = input_to_index(input)
+  
+  if valid_move?(board, index) == true
+    move(board, index, value = "X")
+    display_board(board)
+  else
+    turn(board)
+  
 end
 end
 
