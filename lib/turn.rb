@@ -26,6 +26,8 @@ def position_taken?(board,index)
   return false
     end
   
+  def move(board, inex, token = "X")
+    index = index.to_index
   def turn(board)
   puts "Please enter 1-9:"
 end
