@@ -32,4 +32,4 @@ def position_taken?(board,index)
   puts "Please enter 1-9:"
 end
 end
-end
+
