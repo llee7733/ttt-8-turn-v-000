@@ -7,6 +7,8 @@ def display_board(board)
   end
 
 def input_to_index(input)
+  index = input.to_index - 1
+end
   
   def turn(board)
   puts "Please enter 1-9:"
